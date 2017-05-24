@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -15,658 +15,694 @@
 
     <!-- Printing and PDF exports -->
     <script>
-        var link = document.createElement('link');
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-        document.getElementsByTagName('head')[0].appendChild(link);
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
     </script>
 
     <!-- MathJax -->
     <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
     <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
     </script>
 
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="reveal">
-        <div class="slides">
-            <!-- Section -->
-            <section>
-                <h2>Data analytics, sensing and visualisation for smart cities</h2>
-                <p>
-                    <br/> Krishna Kumar, <a href="mailto:kks32@cam.ac.uk">kks32@cam.ac.uk</a>
-                    <br/> Department of Engineering, University of Cambridge
-                </p>
-                <br/>
-                <div style="float: left; width: 100%;">
-                    <span style="float: left; width: 33%; text-align: center;">
-                      <img style="border:0;" src="images/themes/cued.png" width="100%">
-                    </span>
-                    <span style="float: left; width: 33%; text-align: center;">
-                      <img style="border:0;" src="images/themes/csic.png" width="100%">
-                    </span>
-                    <span style="float: right; width: 33%; text-align: center;">
-                      <img style="border:0;" src="images/themes/csd.png" width="100%">
-                    </span>
-                </div>
-                <br/><br/>
-                <h4>PUC-Rio, Brazil. 25 May 2017</h4>
-            </section>
+      <div class="slides">
+        <!-- Section -->
+        <section>
+          <h2>Data analytics, sensing and visualisation for smart cities</h2>
+          <p>
+            <br/> Krishna Kumar, <a href="mailto:kks32@cam.ac.uk">kks32@cam.ac.uk</a>
+            <br/> Department of Engineering, University of Cambridge
+          </p>
+          <br/>
+          <div style="float: left; width: 100%;">
+            <span style="float: left; width: 33%; text-align: center;">
+              <img style="border:0;" src="images/themes/cued.png" width="100%">
+            </span>
+            <span style="float: left; width: 33%; text-align: center;">
+              <img style="border:0;" src="images/themes/csic.png" width="100%">
+            </span>
+            <span style="float: right; width: 33%; text-align: center;">
+              <img style="border:0;" src="images/themes/csd.png" width="100%">
+            </span>
+          </div>
+          <br/><br/>
+          <h4>PUC-Rio, Brasil. 25 May 2017</h4>
+        </section>
 
-            <!-- Natianal infrastructure plan -->
-            <section>
-                <h2>UK National infrastructure plan</h2>
+        <section>
+          <!-- Natianal infrastructure plan -->
+          <section>
+            <h3>UK National infrastructure plan</h3>
+            <ul>
+              <li><strong>£466B</strong> for the next generation of infrastructure by 2020.</li>
+            </ul>
+            <blockquote>High quality infrastructure is essential for supporting productivity growth. Delivering the right infrastructure at a local, regional and national level, across the UK, is […] key to the government’s long-term economic plan.</blockquote>
+            <img style="border:0;" src="images/construction-2025.png" width="100%">
+          </section>
+
+          <!-- Complex civil infrastructure -->
+          <section>
+            <h3>Victoria station upgrade</h3>
+            <img src="images/victoria-station.png" width="80%">
+          </section>
+
+          <!-- Sensing the infrastructure -->
+          <section>
+            <h3>Sensing the infrastructure</h3>
+            <img src="images/sensing.png" width="80%">
+          </section>
+          <section>
+            <h3>Sensing the infrastructure</h3>
+            <img src="images/sensing2.png" width="80%">
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>Monitoring applications</h2>
+          </section>
+          <!-- Monitoring piles -->
+          <section>
+            <h3>Monitoring of piles</h3>
+            <img src="images/monitoring-piles.png" width="80%">
+          </section>
+
+          <!-- Monitoring tunnels -->
+          <section>
+            <h3>Monitoring of tunnels</h3>
+            <img src="images/monitoring-tunnels.png" width="80%">
+          </section>
+
+          <!-- Monitoring arches -->
+          <section>
+            <h3>Monitoring of arches</h3>
+            <img src="images/monitoring-arches.png" width="80%">
+          </section>
+
+          <!-- Monitoring arches -->
+          <section>
+            <h3>Monitoring of shaft</h3>
+            <img src="images/monitoring-shaft.png" width="80%">
+          </section>
+        </section>
+
+
+        <!-- Wireless sensor network -->
+        <section>
+          <section>
+            <h2>Wireless sensor networks</h2>
+          </section>
+
+          <section>
+            <h3>WSN evolution</h3>
+            <img src="images/wsn-evolution.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Utterberry</h3>
+            <img src="images/utterberry.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Utterberry sensors at Eleanor Street</h3>
+            <img src="images/utterberry-tunnel.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Data analysis from Utterberry sensors</h3>
+            <img src="images/tbm-dewatering.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Tunnel after dewatering</h3>
+            <img src="images/tunnel-dewatering.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Wireless sensing & noise</h3>
+            <img src="images/lbs-noise.png" width="70%">
+          </section>
+
+          <!-- Open standards for WSN -->
+          <section>
+            <h3>WSN - Open standards</h3>
+            <img src="images/wsn-sensors.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Cloud based WSN</h3>
+            <div style="float: left; width: 47%;">
+              <ul>
+                <li>Current WSN development requires complicated software set up</li>
+                <li>Adds to steep learning curve</li>
+                <li>Longer development cycle</li>
+              </ul>
+            </div>
+            <div style="float: right; width: 47%">
+              <ul>
+                <li>Develop firmware using any browser on any device</li>
+                <li>Download compiled firmware</li>
+                <li>Deploy firmware directly to your sensor network</li>
+              </ul>
+            </div>
+            <br/><br/>
+            <img src="images/wsn-cloud.png" width="80%">
+          </section>
+
+          <!-- Hypercat -->
+          <section>
+            <h3>Hypercat</h3>
+            <p>Hypercat is an open, lightweight JSON-based hypermedia catalogue format for exposing collections of uniform resource identifiers.</p>
+            <img src="images/hypercat.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Hypercat - PAS212</h3>
+            <div style="float: left; width: 47%;">
+              <ul>
+                <li>PAS 212 specifies a common catalogue format that clients can use to discover data in servers that they can use.</li>
+                <li>PAS intentionally does not set out to solve all the challenges of data interoperability.</li>
+                <li>A `href` may be a URL (usually a URI)</li>
+                <li>Metadata <pre>rel-value</pre>e.g.,
+                  <pre>{"rel":"urn:X-hypercat:rels:hasColour","val":"red"}</pre></li>
+              </ul>
+            </div>
+            <div style="float: right; width: 47%">
+              <img src="images/hypercat-catalogue.png" width="80%">
+            </div>
+          </section>
+        </section>
+
+        <!-- Fiber Optics -->
+        <section>
+          <section data-background="images/fiber-optics.jpg" data-background-size="80%">
+            <h2 style="color: yellow;">Fiber optic monitoring</h2>
+          </section>
+
+          <!-- Fiber Optics -->
+          <section>
+            <h3>Distributed Brillouin Sensing</h3>
+            <img src="images/fiberoptics-theory.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Post Office tunnel</h3>
+            <img src="images/tunnel-fiberoptics.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Data analysis - tunnel movement</h3>
+            <img src="images/tunnel-movement.png" width="80%">
+          </section>
+
+          <section data-background-video="media/tunneling.webm" data-background-color="#000000"></section>
+        </section>
+
+        <!-- London Bridge Station -->
+        <section>
+          <section data-background="images/lbs-overview.jpg" data-background-size="80%">
+            <h2 style="color: yellow;">London Bridge Station</h2>
+          </section>
+
+          <section>
+            <h3>London Bridge Station - Overview</h3>
+            <img src="images/lbs.png" width="100%">
+          </section>
+
+          <section>
+            <h3>London Bridge Station - Piling</h3>
+            <div style="float: left; width: 70%">
+              <img src="images/lbs-piling.png" width="70%">
+            </div>
+            <div style="float: right; width: 25%">
+              <img src="images/lbs-piledriver.png" width="100%">
+            </div>
+          </section>
+
+          <section>
+            <h3>Sensing</h3>
+            <img src="images/lbs-sensors.png" width="70%">
+            <ul>
+              <li><strong>Automatic Total Station (ATS)</strong> - absolute displacement of targets placed on the masonry structure</li>
+              <li><strong>Strain sensing fibre optics (FO)</strong> - continous strain profile and crack size</li>
+              <li><strong>Laser scanner</strong> - 3D understanding of structural movements</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Automatic Total Station</h3>
+            <img src="images/lbs-totalstation.png" width="90%">
+          </section>
+
+          <section>
+            <h3>ATS - Data analysis</h3>
+            <img src="images/lbs-disp-analysis.png" width="70%">
+            <p>It is difficult to understand the response mechanism of the structure. Small cracks are observed at quarter span – do the movements correlate with the cracks?</p>
+          </section>
+
+          <section>
+            <h3>Laser Scan</h3>
+            <img src="images/lbs-laserscan.png" width="60%">
+            <p>Piecewise alignment method (PAM): finds the closest distances between points and shapes from both clouds. Uses this as an initial estimate for fitting small components of one cloud to the other cloud with minimum error. Defines movement in (X,Y,Z).</p>
+          </section>
+
+          <section>
+            <h3>Laser Scan - Data analysis</h3>
+            <img src="images/lbs-arch-clouddata.png" width="90%">
+          </section>
+
+          <section>
+            <h3>Laser Scan - Data interpretation</h3>
+            <img src="images/lbs-scan-data.png" width="60%">
+          </section>
+
+          <section>
+            <h3>Fiber Optics - Data interpretation</h3>
+            <img src="images/lbs-fo-analysis.png" width="90%">
+          </section>
+
+          <section>
+            <h3>People movement</h3>
+            <img src="images/lbs-people.png" width="90%">
+          </section>
+
+          <section data-background-video="media/people-movement.webm" data-background-color="#000000">
+            <aside class="notes">
+              An interesting aspect of this installation was that, we installed the sensors in Construction Stage 1B where the neighbouring platforms were not operational and a hoarding separated the construction work from the public. However, recently, the hoarding was removed back as Construction Stage CC started. This resulted in some changes in people flows in the station. As a next step, we’d like to simulate these changes using CSIC researcher Vassilis Zachariadis’ microsimulation tool. This tool can tell us when/where a congestion would work and can be used in the long run to optimize temporary station layouts.
+            </aside>
+          </section>
+        </section>
+
+        <!-- Data analytics -->
+        <section>
+          <section>
+            <h2>Smart city</h2>
+            <img src="images/smart-city.png" width="100%">
+          </section>
+
+          <section>
+            <h3>Smart (monitoring complex) infrastructure</h3>
+            <img src="images/complex-infrastructure.png" width="100%">
+          </section>
+
+          <!-- Querries -->
+          <section>
+            <h3>Queries</h3>
+            <p>
+              <ul>
+                <li>At London Bridge Arch E951 area, has there been a black alarm triggered during the piles constructed 12.13-01.14?</li>
+                <li>Is there a crack opening greater than 5mm in the arches, when the settlement values reached 50mm?</li>
+                <li>What is the maximum displacement observed during tunneling (or other construction activity) within x meters from the pile.</li>
+                <li>Number of data readings required for a strain profile – within a tolerance of X?</li>
+                <li>Effect of analyzer X on scatter / noise in soil layer Y</li>
+              </ul>
+            </p>
+          </section>
+
+          <section>
+            <h3>Queries: Big, Fast and Rich</h3>
+            <img style="border:0;" src="images/queries.png" width="50%">
+          </section>
+
+          <!-- Relational DB -->
+          <section>
+            <h3>Relational database</h3>
+            <img style="border:0;" src="images/rdbms.png" width="100%">
+            <p>Humidity? Vibration? 3D point cloud data? …</p>
+          </section>
+          <section>
+            <h3>PostGIS</h3>
+            <ul>
+              <li><strong>Geographic objects</strong> to the PostgreSQL object-relational database</li>
+              <li><strong>Geometry types</strong> for Points, LineStrings, Polygons, MultiPoints, MultiLineStrings, MultipPolygons and GeometryCollections.</li>
+              <li>Spatial operators for determining <strong>geospatial measurements</strong> like area, distance, length and perimeter.</li>
+              <li>Spatial operators for determining <strong>geospatial set operations</strong>, like union, difference, symmetric difference and buffers (provided by GEOS).</li>
+            </ul>
+            <pre>v.to.db map=roads option=length type=line col=linelength units=me</pre>
+          </section>
+
+          <!-- Spatio Temporal Query -->
+          <section>
+            <h3>Spatio-Temporal Query</h3>
+            <div style="float: left; width: 70%">
+              <ul>
+                <li>Semantic analytics tools have primarily focused on thematic relationships, but spatial and temporal relationships are often critical components in analytical domains.</li>
+                <li>Current GIS and spatial database technology does not support complex thematic analytics operations.</li>
                 <ul>
-                    <li><strong>£466B</strong> for the next generation of infrastructure by 2020.</li>
+                  <li>GIS - modelling and analysing spatial and temporal relationships</li>
+                  <li>Thematic entities and their relationships are not explicitly and independently represented, making analysis of these relationships difficult.</li>
                 </ul>
-                <blockquote>High quality infrastructure is essential for supporting productivity growth. Delivering the right infrastructure at a local, regional and national level, across the UK, is […] key to the government’s long-term economic plan.</blockquote>
-                <img style="border:0;" src="images/construction-2025.png" width="100%">
-            </section>
-
-            <!-- Complex civil infrastructure -->
-            <section>
-                <h2>Victoria station upgrade</h2>
-                <img src="images/victoria-station.png" width="80%">
-            </section>
-
-            <!-- Sensing the infrastructure -->
-            <section>
-                <h2>Sensing the infrastructure</h2>
-                <img src="images/sensing.png" width="80%">
-            </section>
-            <section>
-                <h2>Sensing the infrastructure</h2>
-                <img src="images/sensing2.png" width="80%">
-            </section>
-
-            <section>
-                <section>
-                    <h2>Monitoring applications</h2>
-                </section>
-                <!-- Monitoring piles -->
-                <section>
-                    <h2>Monitoring of piles</h2>
-                    <img src="images/monitoring-piles.png" width="80%">
-                </section>
-
-                <!-- Monitoring tunnels -->
-                <section>
-                    <h2>Monitoring of tunnels</h2>
-                    <img src="images/monitoring-tunnels.png" width="80%">
-                </section>
-
-                <!-- Monitoring arches -->
-                <section>
-                    <h2>Monitoring of arches</h2>
-                    <img src="images/monitoring-arches.png" width="80%">
-                </section>
-
-                <!-- Monitoring arches -->
-                <section>
-                    <h2>Monitoring of shaft</h2>
-                    <img src="images/monitoring-shaft.png" width="80%">
-                </section>
-            </section>
-
-            <!-- Wireless sensor network -->
-            <section>
-                <section>
-                    <h2>Wireless sensor networks</h2>
-                </section>
-
-                <section>
-                    <h2>WSN evolution</h2>
-                    <img src="images/wsn-evolution.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Utterberry</h2>
-                    <img src="images/utterberry.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Utterberry sensors at Eleanor Street</h2>
-                    <img src="images/utterberry-tunnel.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Data analysis from Utterberry sensors</h2>
-                    <img src="images/tbm-dewatering.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Tunnel after dewatering</h2>
-                    <img src="images/tunnel-dewatering.png" width="80%">
-                </section>
-
-                <!-- Open standards for WSN -->
-                <section>
-                    <h2>WSN - Open standards</h2>
-                    <img src="images/wsn-sensors.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Cloud based WSN</h2>
-                    <div style="float: left; width: 47%;">
-                        <ul>
-                            <li>Current WSN development requires complicated software set up</li>
-                            <li>Adds to steep learning curve</li>
-                            <li>Longer development cycle</li>
-                        </ul>
-                    </div>
-                    <div style="float: right; width: 47%">
-                        <ul>
-                            <li>Develop firmware using any browser on any device</li>
-                            <li>Download compiled firmware</li>
-                            <li>Deploy firmware directly to your sensor network</li>
-                        </ul>
-                    </div>
-                    <br/><br/>
-                    <img src="images/wsn-cloud.png" width="80%">
-                </section>
-
-                <!-- Hypercat -->
-                <section>
-                    <h2>Hypercat</h2>
-                    <p>Hypercat is an open, lightweight JSON-based hypermedia catalogue format for exposing collections of uniform resource identifiers.</p>
-                    <img src="images/hypercat.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Hypercat - PAS212</h2>
-                    <div style="float: left; width: 47%;">
-                        <ul>
-                            <li>PAS 212 specifies a common catalogue format that clients can use to discover data in servers that they can use.</li>
-                            <li>PAS intentionally does not set out to solve all the challenges of data interoperability.</li>
-                            <li>A `href` may be a URL (usually a URI)</li>
-                            <li>Metadata <pre>rel-value</pre>e.g.,
-                                <pre>{"rel":"urn:X-hypercat:rels:hasColour","val":"red"}</pre></li>
-                        </ul>
-                    </div>
-                    <div style="float: right; width: 47%">
-                        <img src="images/hypercat-catalogue.png" width="80%">
-                    </div>
-                </section>
-            </section>
-
-            <!-- Fiber Optics -->
-            <section>
-                <section data-background="images/fiber-optics.jpg" data-background-size="80%">
-                    <h2 style="color: yellow;">Fiber optic monitoring</h2>
-                </section>
-
-                <!-- Fiber Optics -->
-                <section>
-                    <h2>Distributed Brillouin Sensing</h2>
-                    <img src="images/fiberoptics-theory.png" width="80%">
-                </section>
-
-                <section>
-                    <h3>Post Office tunnel</h3>
-                    <img src="images/tunnel-fiberoptics.png" width="80%">
-                </section>
-
-                <section>
-                    <h3>Data analysis - tunnel movement</h3>
-                    <img src="images/tunnel-movement.png" width="80%">
-                </section>
-
-                <section data-background-video="media/tunneling.webm" data-background-color="#000000"></section>
-            </section>
-
-            <!-- London Bridge Station -->
-            <section>
-                <section data-background="images/lbs-overview.jpg" data-background-size="80%">
-                    <h2 style="color: yellow;">London Bridge Station</h2>
-                </section>
-
-                <section>
-                    <h3>London Bridge Station - Overview</h3>
-                    <img src="images/lbs.png" width="100%">
-                </section>
-
-                <section>
-                    <h3>Construction sequence</h3>
-                    <img src="images/lbs-plan.png" width="90%">
-                </section>
-
-                <section>
-                    <h3>The Arch - E951</h3>
-                    <img src="images/lbs-arch.png" width="90%">
-                </section>
-
-                <section>
-                    <h3>London Bridge Station - Piling</h3>
-                    <div style="float: left; width: 70%">
-                        <img src="images/lbs-piling.png" width="70%">
-                    </div>
-                    <div style="float: right; width: 25%">
-                        <img src="images/lbs-piledriver.png" width="100%">
-                    </div>
-                </section>
-
-                <section>
-                    <h3>Sensing</h3>
-                    <img src="images/lbs-sensors.png" width="70%">
-                    <ul>
-                        <li><strong>Automatic Total Station (ATS)</strong> - absolute displacement of targets placed on the masonry structure</li>
-                        <li><strong>Strain sensing fibre optics (FO)</strong> - continous strain profile and crack size</li>
-                        <li><strong>Laser scanner</strong> - 3D understanding of structural movements</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h3>Automatic Total Station</h3>
-                    <img src="images/lbs-totalstation.png" width="90%">
-                </section>
-
-                <section>
-                    <h3>ATS - Data analysis</h3>
-                    <img src="images/lbs-prism-disp.png" width="90%">
-                </section>
-
-                <section>
-                    <h3>ATS - Data analysis</h3>
-                    <img src="images/lbs-disp-analysis.png" width="70%">
-                    <p>It is difficult to understand the response mechanism of the structure. Small cracks are observed at quarter span – do the movements correlate with the cracks?</p>
-                </section>
-
-                <section>
-                    <h3>Laser Scan</h3>
-                    <img src="images/lbs-laserscan.png" width="60%">
-                    <p>Piecewise alignment method (PAM): finds the closest distances between points and shapes from both clouds. Uses this as an initial estimate for fitting small components of one cloud to the other cloud with minimum error. Defines movement in (X,Y,Z).</p>
-                </section>
-
-                <section>
-                    <h3>Laser Scan - Data analysis</h3>
-                    <img src="images/lbs-arch-clouddata.png" width="90%">
-                </section>
-
-                <section>
-                    <h3>Laser Scan - Data interpretation</h3>
-                    <img src="images/lbs-scan-data.png" width="60%">
-                </section>
-
-                <section>
-                    <h3>Fiber Optics - Data interpretation</h3>
-                    <img src="images/lbs-fo-analysis.png" width="90%">
-                </section>
-
-                <section>
-                    <h3>People movement</h3>
-                    <img src="images/lbs-people.png" width="90%">
-                </section>
-
-                <section data-background-video="media/people-movement.webm" data-background-color="#000000">
-                    <aside class="notes">
-                        An interesting aspect of this installation was that, we installed the sensors in Construction Stage 1B where the neighbouring platforms were not operational and a hoarding separated the construction work from the public. However, recently, the hoarding was removed back as Construction Stage CC started. This resulted in some changes in people flows in the station. As a next step, we’d like to simulate these changes using CSIC researcher Vassilis Zachariadis’ microsimulation tool. This tool can tell us when/where a congestion would work and can be used in the long run to optimize temporary station layouts.
-                    </aside>
-                </section>
-
-                <section>
-                    <h3>Wireless sensing & noise</h3>
-                    <img src="images/lbs-noise.png" width="70%">
-                </section>
-            </section>
-
-            <!-- Data analytics -->
-            <section>
-                <section>
-                    <h2>Smart city</h2>
-                    <img src="images/smart-city.png" width="100%">
-                </section>
-
-                <section>
-                    <h2>Smart (monitoring complex) infrastructure</h2>
-                    <img src="images/complex-infrastructure.png" width="100%">
-                </section>
-
-                <!-- Querries -->
-                <section>
-                    <h2>Queries</h2>
-                    <p>
-                        <ul>
-                            <li>At London Bridge Arch E951 area, has there been a black alarm triggered during the piles constructed 12.13-01.14?</li>
-                            <li>Is there a crack opening greater than 5mm in the arches, when the settlement values reached 50mm?</li>
-                            <li>What is the maximum displacement observed during tunneling (or other construction activity) within x meters from the pile.</li>
-                            <li>Number of data readings required for a strain profile – within a tolerance of X?</li>
-                            <li>Effect of analyzer X on scatter / noise in soil layer Y</li>
-                        </ul>
-                    </p>
-                </section>
-
-                <section>
-                    <h2>Queries: Big, Fast and Rich</h2>
-                    <img style="border:0;" src="images/queries.png" width="50%">
-                </section>
-
-                <!-- Relational DB -->
-                <section>
-                    <h2>Relational database</h2>
-                    <img style="border:0;" src="images/rdbms.png" width="100%">
-                    <p>Humidity? Vibration? 3D point cloud data? …</p>
-                </section>
-                <section>
-                    <h3>PostGIS</h3>
-                    <ul>
-                        <li><strong>Geographic objects</strong> to the PostgreSQL object-relational database</li>
-                        <li><strong>Geometry types</strong> for Points, LineStrings, Polygons, MultiPoints, MultiLineStrings, MultipPolygons and GeometryCollections.</li>
-                        <li>Spatial operators for determining <strong>geospatial measurements</strong> like area, distance, length and perimeter.</li>
-                        <li>Spatial operators for determining <strong>geospatial set operations</strong>, like union, difference, symmetric difference and buffers (provided by GEOS).</li>
-                    </ul>
-                    <pre>v.to.db map=roads option=length type=line col=linelength units=me</pre>
-                </section>
-
-                <!-- Spatio Temporal Query -->
-                <section>
-                    <h2>Spatio-Temporal Query</h2>
-                    <div style="float: left; width: 70%">
-                        <ul>
-                            <li>Semantic analytics tools have primarily focused on thematic relationships, but spatial and temporal relationships are often critical components in analytical domains.</li>
-                            <li>Current GIS and spatial database technology does not support complex thematic analytics operations.</li>
-                            <ul>
-                                <li>GIS - modelling and analysing spatial and temporal relationships</li>
-                                <li>Thematic entities and their relationships are not explicitly and independently represented, making analysis of these relationships difficult.</li>
-                            </ul>
-                        </ul>
-                    </div>
-                    <div style="float: right; width: 25%">
-                        <img style="border:0;" src="images/spatio-temporal.png" width="100%">
-                    </div>
-                </section>
-
-                <section>
-                    <h2>CityGML</h2>
-                    <ul>
-                        <li>Open data model and an XML-based format for the storage and exchange of data.</li>
-                        <li>Common information model for the representation of sets of 3D urban objects</li>
-                    </ul>
-                    <img style="border:0;" src="images/citygml.png" width="70%">
-                </section>
-
-                <section>
-                    <h2>CityGML</h2>
-                    <pre>
-                        <code class="hlxml" data-trim>
-                        <frn:CityFurniture>
-                        <frn:class codeSpace="http://www.sig3d.org/codelists/standard/cityfurniture/2.0/CityFurniture_class.xml">1000</frn:class>
-                        <frn:function codeSpace="http://www.sig3d.org/codelists/standard/cityfurniture/2.0/CityFurniture_function.xml">1080</frn:function>
-                        <frn:lod2ImplicitRepresentation>
-                          <core:ImplicitGeometry>
-                          <core:mimeType>model/vrml</core:mimeType>
-                          <core:libraryObject>
-                            http://www.some-3d-library.com/3D/furnitures/Sensor434.wrl
-                          </core:libraryObject>
-                          <core:referencePoint>
-                            <gml:Point srsName="urn:ogc:def:crs,crs:EPSG:6.12:31467,crs:EPSG:6.12:5783">
-                              <gml:pos srsDimension="3">5793898.77 3603845.54 44.8</gml:pos>
-                            </gml:Point>
-                          </core:referencePoint>
-                        </core:ImplicitGeometry>
-                      </frn:lod2ImplicitRepresentation>
-                      </frn:CityFurniture>
-                      </code>
-                  </pre>
-                </section>
-
-                <section>
-                    <h2>Building Information Modelling</h2>
-                    <img src="images/bim.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Industry Foundation Class</h2>
-                    <pre>
-                       <code class="html" data-trim>
-                       <IfcCartesianPoint id="i1001">
-                       <Coordinates ex:cType="list">
-                       <IfcLengthMeasure pos="0">100.0</IfcLengthMeasure>
-                       <IfcLengthMeasure pos="1">100.0</IfcLengthMeasure>
-                       <IfcLengthMeasure pos="2">100.0</IfcLengthMeasure>
-                       </Coordinates>
-                       </IfcCartesianPoint>
-                       </code>
-                  </pre>
-                </section>
-
-                <!-- Smart cities standard -->
-                <section>
-                    <h2>Smart cities standard</h2>
-                    <ul>
-                        <li>Smart cities standard (PAS 182) offers a handful of generic concepts (such as place, observation, metric etc.) to formulate a common language for linking data across organizations in a city.</li>
-                        <li>The main goal is to seamlessly integrate information from multiple organisations using <strong>Linked Data (Semantic Web technology)</strong> that can be shared and edited.</li>
-                        <li>Different from BIM, Smart Cities allow for the sharing of critical but less tangible aspects that relate to the data: such as related Assumptions and Objectives.</li>
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>Linked Data - Semantic Web</h2>
-                    <img src="images/linked-data.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Linked Data - example</h2>
-                    <img src="images/bristol-airpollution.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Resource Description Framework</h2>
-                    <pre>
-                    <code class="hshtml">
-                    <div vocab="http://schema.org/" typeof="Sensor">
-                      <span property="name">Utterberry</span> measures
-                      <span property="sensorFunction" typeof="Measurement" href="http://www.sensor-data.org/entity/Q1731">
-                        <span property="type">Displacement</span>.
-                      </span>
-                    </div>
-                    </code>
-                  </pre>
-                    <img src="images/linked-data-sensors.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Linked Data - Concept model</h2>
-                    <img src="images/lbs-concept.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Linked Data - Time Slices</h2>
-                    <img src="images/linked-data-timeslices.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Temporal RDF</h2>
-                    <img src="images/temporal-rdf.png" width="80%">
-                    <p>Temporal RDF extends the RDF statement from a triple to a quad where the fourth element is the valid time of the RDF statement</p>
-                </section>
-
-                <!-- Graph Processing -->
-                <section>
-                    <h2>Graph processing</h2>
-                    <img src="images/graph-processing.png" width="80%">
-                </section>
-                <section>
-                    <h2>Graph optimisation</h2>
-                    <img src="images/graph-optimisation.png" width="50%">
-                </section>
-            </section>
-
-            <!-- Big data - City scale modelling -->
-            <section>
-                <section data-background="images/london-abm.png" data-background-size="80%">
-                    <h2 style="color: white;">Big Data - City scale modelling</h2>
-                    <h4 style="color: white;">Gerry Casey, Bing Yu, Kenichi Soga, Peter Guthrie, Elisabete Silva, Krishna Kumar and Mietek Bak</h4>
-                </section>
-
-                <section>
-                    <h2>SQL v NoSQL - Google directions API</h2>
-                    <img src="images/sql-nosql.png" width="80%">
-                </section>
-
-                <!-- Journey time -->
-                <section>
-                    <h2>London journey times</h2>
-                    <div style="float: left; width: 47%">
-                        <img src="images/london-atc.png" width="80%">
-                    </div>
-                    <div style="float: right; width: 47%">
-                        <img src="images/london-google-traffic.png" width="80%">
-                    </div>
-                </section>
-
-                <section>
-                    <h2>London journey times</h2>
-                    <img src="images/london-journeys.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>London journey times</h2>
-                    <img src="images/london-journeytimes.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Traffic saturation curves</h2>
-                    <div style="float: left; width: 47%">
-                        <img src="images/A66-saturation-curves.png" width="100%">
-                    </div>
-                    <div style="float: right; width: 47%">
-                        <img src="images/A66.png" width="80%">
-                    </div>
-                </section>
-
-                <!-- MapReduce v Inmemory -->
-                <section>
-                    <h2>MapReduce v In-memory</h2>
-                    <div style="float: left; width: 47%">
-                        <h4>MapReduce</h4>
-                        <ul>
-                            <li>Batch processing</li>
-                            <li>Larger set of data to extract features and correlations</li>
-                        </ul>
-                        <img src="images/map-reduce.png" width="80%">
-                    </div>
-                    <div style="float: right; width: 47%">
-                        <h4>In-memory</h4>
-                        <ul>
-                            <li>Real-time predictions</li>
-                            <li><strong>GraphX</strong>: Graph parallel computing</li>
-                        </ul>
-                        <img src="images/spark.png" width="80%">
-                    </div>
-                </section>
-
-                <section>
-                    <h2>Agent based modelling (ABM)</h2>
-                    <img src="images/abm-traffic.png" width="100%">
-                </section>
-
-                <section>
-                    <h2>Agent based modelling</h2>
-                    <img src="images/abm-journeys.png" width="100%">
-                </section>
-
-                <section>
-                    <h2>Cellular Automata (CA)</h2>
-                    <img src="images/ca-london.png" width="50%">
-                    <img src="images/ca-methodology.png" width="70%">
-                </section>
-
-                <section>
-                    <h2>CA - Road degradation</h2>
-                    <img src="images/ca-years.png" width="50%">
-                </section>
-            </section>
-
-
-            <!-- Visualisation -->
-            <section>
-                <section data-background="images/london-journeys.png" data-background-size="80%">
-                    <h2 style="color: white;">Big Data visualisation</h2>
-                </section>
-                <section>
-                    <h2>Tile based visualisation</h2>
-                </section>
-                <section data-background-video="media/sc-old.webm" data-background-color="#000000"></section>
-                <section>
-                    <h2>WebGL - GLSL (Shading language)</h2>
-                    <img src="images/glsl.png" width="50%">
-                    <br/>
-                    <p>
-                        <a href="http://acko.net/files/gltalks/pixelfactory/online.html#42">GLSL - MathBox</a>
-                        <a href="http://webglplayground.net/?gallery=fluid-simulation">WebGL</a>
-                    </p>
-                </section>
-
-                <section>
-                    <h2>GPU</h2>
-                    <img src="images/gpu.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Super computing</h2>
-                    <img src="images/super-computer.png" width="80%">
-                </section>
-
-                <section>
-                    <h2>Alien Isolation</h2>
-                    <img src="images/alien.png" width="80%">
-                </section>
-                <section data-background-video="media/sc.webm" data-background-color="#000000"></section>
-            </section>
-
-            <!-- Thank you! -->
-            <section>
-                <h1> Thank you!! </h1>
-                <p>
-                    <br/> Krishna Kumar, <a href="mailto:kks32@cam.ac.uk">kks32@cam.ac.uk</a>
-                </p>
-                <br/>
-                <br/><br/>
-                <div style="float: left; width: 100%;">
-                    <span style="float: left; width: 33%; text-align: center;">
-                      <img style="border:0;" src="images/themes/cued.png" width="100%">
-                    </span>
-                    <span style="float: left; width: 33%; text-align: center;">
-                      <img style="border:0;" src="images/themes/cb-geo-text-white.png" width="100%">
-                    </span>
-                    <span style="float: right; width: 33%; text-align: center;">
-                      <img style="border:0;" src="images/themes/csd.png" width="100%">
-                    </span>
+              </ul>
+            </div>
+            <div style="float: right; width: 25%">
+              <img style="border:0;" src="images/spatio-temporal.png" width="100%">
+            </div>
+          </section>
+
+          <section>
+            <h3>CityGML</h3>
+            <ul>
+              <li>Open data model and an XML-based format for the storage and exchange of data.</li>
+              <li>Common information model for the representation of sets of 3D urban objects</li>
+            </ul>
+            <img style="border:0;" src="images/citygml.png" width="70%">
+          </section>
+
+          <section>
+            <h3>CityGML</h3>
+            <pre>
+              <code class="hlxml" data-trim>
+                <frn:CityFurniture>
+                  <frn:class codeSpace="http://www.sig3d.org/codelists/standard/cityfurniture/2.0/CityFurniture_class.xml">1000</frn:class>
+                  <frn:function codeSpace="http://www.sig3d.org/codelists/standard/cityfurniture/2.0/CityFurniture_function.xml">1080</frn:function>
+                  <frn:lod2ImplicitRepresentation>
+                    <core:ImplicitGeometry>
+                      <core:mimeType>model/vrml</core:mimeType>
+                      <core:libraryObject>
+                        http://www.some-3d-library.com/3D/furnitures/Sensor434.wrl
+                      </core:libraryObject>
+                      <core:referencePoint>
+                        <gml:Point srsName="urn:ogc:def:crs,crs:EPSG:6.12:31467,crs:EPSG:6.12:5783">
+                          <gml:pos srsDimension="3">5793898.77 3603845.54 44.8</gml:pos>
+                        </gml:Point>
+                      </core:referencePoint>
+                    </core:ImplicitGeometry>
+                  </frn:lod2ImplicitRepresentation>
+                </frn:CityFurniture>
+              </code>
+            </pre>
+          </section>
+
+          <section>
+            <h3>Building Information Modelling</h3>
+            <img src="images/bim.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Industry Foundation Class</h3>
+            <pre>
+              <code class="html" data-trim>
+                <IfcCartesianPoint id="i1001">
+                  <Coordinates ex:cType="list">
+                    <IfcLengthMeasure pos="0">100.0</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="1">100.0</IfcLengthMeasure>
+                    <IfcLengthMeasure pos="2">100.0</IfcLengthMeasure>
+                  </Coordinates>
+                </IfcCartesianPoint>
+              </code>
+            </pre>
+          </section>
+
+          <!-- Smart cities standard -->
+          <section>
+            <h3>Smart cities standard</h3>
+            <ul>
+              <li>Smart cities standard (PAS 182) offers a handful of generic concepts (such as place, observation, metric etc.) to formulate a common language for linking data across organizations in a city.</li>
+              <li>The main goal is to seamlessly integrate information from multiple organisations using <strong>Linked Data (Semantic Web technology)</strong> that can be shared and edited.</li>
+              <li>Different from BIM, Smart Cities allow for the sharing of critical but less tangible aspects that relate to the data: such as related Assumptions and Objectives.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Linked Data - Semantic Web</h3>
+            <img src="images/linked-data.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Linked Data - example</h3>
+            <img src="images/bristol-airpollution.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Resource Description Framework</h3>
+            <pre>
+              <code class="hshtml">
+                <div vocab="http://schema.org/" typeof="Sensor">
+                  <span property="name">Utterberry</span> measures
+                  <span property="sensorFunction" typeof="Measurement" href="http://www.sensor-data.org/entity/Q1731">
+                    <span property="type">Displacement</span>.
+                  </span>
                 </div>
-            </section>
-            <!-- Special thanks to Chitra atthai! -->
-        </div>
+              </code>
+            </pre>
+            <img src="images/linked-data-sensors.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Linked Data - Concept model</h3>
+            <img src="images/lbs-concept.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Linked Data - Time Slices</h3>
+            <img src="images/linked-data-timeslices.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Temporal RDF</h3>
+            <img src="images/temporal-rdf.png" width="80%">
+            <p>Temporal RDF extends the RDF statement from a triple to a quad where the fourth element is the valid time of the RDF statement</p>
+          </section>
+
+          <!-- Graph Processing -->
+          <section>
+            <h3>Graph processing</h3>
+            <img src="images/graph-processing.png" width="80%">
+          </section>
+          <section>
+            <h3>Graph optimisation</h3>
+            <img src="images/graph-optimisation.png" width="50%">
+          </section>
+        </section>
+
+        <!-- Big data - City scale modelling -->
+        <section>
+          <section data-background="images/london-abm.png" data-background-size="80%">
+            <h2 style="color: white;">Big Data - City scale modelling</h2>
+            <h4 style="color: white;">Gerry Casey, Bing Yu, Kenichi Soga, Peter Guthrie, Elisabete Silva, Krishna Kumar and Mietek Bak</h4>
+          </section>
+
+          <section>
+            <h3>SQL v NoSQL - Google directions API</h3>
+            <img src="images/sql-nosql.png" width="80%">
+          </section>
+
+          <!-- Journey time -->
+          <section>
+            <h3>London journey times</h3>
+            <div style="float: left; width: 47%">
+              <img src="images/london-atc.png" width="80%">
+            </div>
+            <div style="float: right; width: 47%">
+              <img src="images/london-google-traffic.png" width="80%">
+            </div>
+          </section>
+
+          <section>
+            <h3>London journey times</h3>
+            <img src="images/london-journeys.png" width="80%">
+          </section>
+
+          <section>
+            <h3>London journey times</h3>
+            <img src="images/london-journeytimes.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Traffic saturation curves</h3>
+            <div style="float: left; width: 47%">
+              <img src="images/A66-saturation-curves.png" width="100%">
+            </div>
+            <div style="float: right; width: 47%">
+              <img src="images/A66.png" width="80%">
+            </div>
+          </section>
+
+          <!-- MapReduce v Inmemory -->
+          <section>
+            <h3>MapReduce v In-memory</h3>
+            <div style="float: left; width: 47%">
+              <h4>MapReduce</h4>
+              <ul>
+                <li>Batch processing</li>
+                <li>Larger set of data to extract features and correlations</li>
+              </ul>
+              <img src="images/map-reduce.png" width="80%">
+            </div>
+            <div style="float: right; width: 47%">
+              <h4>In-memory</h4>
+              <ul>
+                <li>Real-time predictions</li>
+                <li><strong>GraphX</strong>: Graph parallel computing</li>
+              </ul>
+              <img src="images/spark.png" width="80%">
+            </div>
+          </section>
+
+          <section>
+            <h3>Agent based modelling (ABM)</h3>
+            <h4>Graph data structure</h4>
+            <img src="images/graph-data-abm.png" width="100%">
+          </section>
+
+          <section>
+            <h3>ABM time step</h3>
+            <img src="images/graph-data-abm-timestep.png" width="100%">
+          </section>
+
+          <section>
+            <h3>Spatial v Temporal complexity</h3>
+            <div style="float: left; width: 47%">
+              <h4>Spatial</h4>
+              <img src="images/spatial-complexity.png" width="80%">
+            </div>
+            <div style="float: right; width: 47%">
+              <h4>Temporal</h4>
+              <img src="images/temporal-complexity.png" width="80%">
+            </div>
+          </section>
+
+          <section>
+            <h3>ABM Architecture</h3>
+            <img src="images/abm-architecture.png" width="70%">
+            <ul>
+              <li>Decentralised data structures</li>
+              <li>Graph size: ~250k nodes and ~800k edges</li>
+              <li>~1.5 GB (.gml) to 43 MB (.json.gz)</li>
+            </ul>
+          </section>
+          
+          <section>
+            <h3>Dynamic computations</h3>
+            <div style="float: left; width: 60%">
+              <img src="images/dynamic-computations.png" width="100%">
+            </div>
+            <div style="float: right; width: 40%">
+              <ul>
+                <li>Shortest path at time <i>'t'</i></li>
+                <li>Shortest path considering emissions</li>
+                <li>Shortest path re-computation in response to an event</li>
+                <li>1 million agents in ~ 1 hour</li>
+              </ul>
+            </div>
+          </section>
+          
+          <section>
+            <h3>Agent based modelling (ABM)</h3>
+            <img src="images/abm-traffic.png" width="100%">
+          </section>
+
+          <section>
+            <h3>Agent based modelling</h3>
+            <img src="images/abm-journeys.png" width="100%">
+          </section>
+
+          <section>
+            <h3>Cellular Automata (CA)</h3>
+            <img src="images/ca-london.png" width="50%">
+            <img src="images/ca-methodology.png" width="70%">
+          </section>
+
+          <section>
+            <h3>CA - Road degradation</h3>
+            <img src="images/ca-years.png" width="50%">
+          </section>
+        </section>
+
+
+        <!-- Visualisation -->
+        <section>
+          <section data-background="images/london-journeys.png" data-background-size="80%">
+            <h2 style="color: white;">Big Data visualisation</h2>
+          </section>
+          <section>
+            <h3>Tile based visualisation</h3>
+          </section>
+          <section data-background-video="media/sc-old.webm" data-background-color="#000000"></section>
+          <section>
+            <h3>WebGL - GLSL (Shading language)</h3>
+            <img src="images/glsl.png" width="50%">
+            <br/>
+            <p>
+              <a href="http://acko.net/files/gltalks/pixelfactory/online.html#42">GLSL - MathBox</a>
+              <a href="http://webglplayground.net/?gallery=fluid-simulation">WebGL</a>
+            </p>
+          </section>
+
+          <section>
+            <h3>GPU</h3>
+            <img src="images/gpu.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Super computing</h3>
+            <img src="images/super-computer.png" width="80%">
+          </section>
+
+          <section>
+            <h3>Alien Isolation</h3>
+            <img src="images/alien.png" width="80%">
+          </section>
+          <section data-background-video="media/sc.webm" data-background-color="#000000"></section>
+        </section>
+
+        <!-- Thank you! -->
+        <section>
+          <h1> Thank you!! </h1>
+          <p>
+            <br/> Krishna Kumar, <a href="mailto:kks32@cam.ac.uk">kks32@cam.ac.uk</a>
+          </p>
+          <br/>
+          <br/><br/>
+          <div style="float: left; width: 100%;">
+            <span style="float: left; width: 33%; text-align: center;">
+              <img style="border:0;" src="images/themes/cued.png" width="100%">
+            </span>
+            <span style="float: left; width: 33%; text-align: center;">
+              <img style="border:0;" src="images/themes/cb-geo-text-white.png" width="100%">
+            </span>
+            <span style="float: right; width: 33%; text-align: center;">
+              <img style="border:0;" src="images/themes/csd.png" width="100%">
+            </span>
+          </div>
+        </section>
+        <!-- Special thanks to Chitra atthai! -->
+      </div>
     </div>
 
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.js"></script>
 
     <script>
-        // More info https://github.com/hakimel/reveal.js#configuration
-        Reveal.initialize({
-            history: true,
-            slideNumber: 'c/t',
-            // More info https://github.com/hakimel/reveal.js#dependencies
-            dependencies: [{
-                src: 'plugin/markdown/marked.js'
-            }, {
-                src: 'plugin/markdown/markdown.js'
-            }, {
-                src: 'plugin/notes/notes.js',
-                async: true
-            }, {
-                src: 'plugin/highlight/highlight.js',
-                async: true,
-                callback: function() {
-                    hljs.initHighlightingOnLoad();
-                }
-            }]
-        });
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+      history: true,
+      slideNumber: 'c/t',
+      // More info https://github.com/hakimel/reveal.js#dependencies
+      dependencies: [{
+      src: 'plugin/markdown/marked.js'
+      }, {
+      src: 'plugin/markdown/markdown.js'
+      }, {
+      src: 'plugin/notes/notes.js',
+      async: true
+      }, {
+      src: 'plugin/highlight/highlight.js',
+      async: true,
+      callback: function() {
+      hljs.initHighlightingOnLoad();
+      }
+      }]
+      });
     </script>
-</body>
+  </body>
 
 </html>
